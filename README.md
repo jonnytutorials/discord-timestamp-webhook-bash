@@ -1,2 +1,8 @@
-# discord-timestamp-webhook-bash
-Mit bash den aktuellen Timestamp über einen Discord-Webhook senden
+## Mit bash den aktuellen Timestamp über einen Discord-Webhook senden
+
+### Für den Timestamp benötigt man:
+``` bash
+date=$(date +"%s")
+timestamp="<t:$date:R>"
+```
+In der Variable `$timestamp` ist der Formatierte Timestamp gespeichert. Diesen kannst du direkt in die Webhook-Nachricht einsetzen.
