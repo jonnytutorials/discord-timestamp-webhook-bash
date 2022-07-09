@@ -6,4 +6,5 @@ date=$(date +"%s")
 timestamp="<t:$date:R>"
 ```
 In der Variable `$timestamp` ist der formatierte Timestamp gespeichert. Diesen kannst du direkt in die Webhook-Nachricht einsetzen.
-<img src="https://i.ibb.co/HYRfZFh/Webhook-Message.png" alt="Webhook-Message" border="5">
+<br>
+<img src="https://i.ibb.co/HYRfZFh/Webhook-Message.png" alt="Webhook-Message">
